@@ -257,27 +257,23 @@ body {
 .stores-map__main .map-wrapper::after {
   content: '';
   width: 100%;
-  height: 20%;
+  height: 50%;
   position: absolute;
   display: block;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(54%, white));
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 54%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), color-stop(94%, white));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, white 94%);
   bottom: 0;
 }
 
 .stores-map__main .map-wrapper::before {
   content: '';
   width: 100%;
-  height: 20%;
+  height: 50%;
   position: absolute;
   display: block;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0)), color-stop(54%, white));
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, white 54%);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.3)), color-stop(94%, white));
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, white 94%);
   top: 0;
-}
-
-.stores-map__main .map-wrapper .map {
-  vertical-align: middle;
 }
 
 .map-point {
